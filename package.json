@@ -1,0 +1,43 @@
+{
+  "name": "@synapsea/auth-react",
+  "version": "1.0.3",
+  "description": "React SDK for Synapsea Auth — Auth-as-a-Service platform",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Synapsea <admin@synapsea.agency>",
+  "homepage": "https://id.synapsea.agency/docs/sdk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shydamn/synapsea-auth-react"
+  },
+  "keywords": [
+    "auth",
+    "oauth",
+    "react",
+    "synapsea",
+    "vk-id",
+    "telegram",
+    "google",
+    "russian"
+  ],
+  "peerDependencies": {
+    "react": ">=17.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --watch"
+  },
+  "devDependencies": {
+    "react": "^19.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.5.0",
+    "@types/react": "^19.0.0"
+  }
+}

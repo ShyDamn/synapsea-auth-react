@@ -1,0 +1,82 @@
+Synapsea Auth — Software License Agreement
+Синапсия Авторизация — лицензионное соглашение на ПО
+
+Copyright (c) Synapsea (synapsea.agency). All rights reserved.
+Все права принадлежат Synapsea. Права не передаются, кроме явно указанных ниже.
+
+────────────────────────────────────────────────────────────────
+1. GRANT / ПРЕДОСТАВЛЕНИЕ ПРАВ
+
+Synapsea grants you a limited, non-exclusive, non-transferable,
+revocable license to install, execute, and distribute this package
+**only as part of your own application’s client or server code**, and
+**only for the purpose of integrating end-user sign-in, sign-up, and
+session handling with the Synapsea Auth platform** (the hosted
+authentication service operated by Synapsea or infrastructure
+expressly designated by Synapsea), in accordance with official
+documentation and your agreement with Synapsea (including project
+API keys, subscription, and acceptable use).
+
+Synapsea предоставляет вам ограниченную, неисключительную,
+непередаваемую, отзывную лицензию на установку, выполнение и
+включение этого пакета **только в составе вашего приложения** и
+**исключительно для интеграции входа, регистрации и сессий
+пользователей с платформой Synapsea Auth**, в соответствии с
+официальной документацией и вашими договорённостями с Synapsea
+(включая API-ключи проекта, подписку и правила допустимого
+использования).
+
+This is **not** a grant of free general-purpose or unrestricted use.
+
+────────────────────────────────────────────────────────────────
+2. RESTRICTIONS / ОГРАНИЧЕНИЯ
+
+You may not, and may not permit others to:
+
+(a) Use this software to build, operate, or market a competing
+    authentication-as-a-service, identity provider, or “Auth-as-a-Service”
+    product directed at third parties outside your own applications;
+
+(b) Sublicense, sell, rent, lease, or otherwise commercialize the
+    Software itself (as distinct from your application that uses it
+    with Synapsea Auth);
+
+(c) Remove or alter copyright, trademark, or other proprietary notices;
+
+(d) Reverse engineer, decompile, or disassemble the Software except
+    where mandatory applicable law expressly permits and cannot be
+    waived by contract.
+
+Запрещено использовать ПО для создания конкурирующего сервиса
+авторизации «как услуги», сублицензировать или продавать само ПО как
+продукт, удалять уведомления о правах, а также обходить ограничения,
+кроме случаев, прямо разрешённых императивным правом.
+
+────────────────────────────────────────────────────────────────
+3. NO OPEN-SOURCE / НЕ СВОБОДНОЕ ПО
+
+The Software is **proprietary**. It is **not** licensed under MIT,
+Apache, GPL, or any other open-source license. No rights are granted
+except those expressly stated in this file.
+
+ПО является проприетарным и **не** является свободным ПО в смысле OSI.
+Права не предоставляются, кроме явно указанных в этом тексте.
+
+────────────────────────────────────────────────────────────────
+4. TERMINATION / ПРЕКРАЩЕНИЕ
+
+This license ends automatically if you breach it. Synapsea may also
+terminate or suspend your access to the Synapsea Auth service under
+separate terms.
+
+При нарушении условий лицензия прекращается автоматически.
+
+────────────────────────────────────────────────────────────────
+5. DISCLAIMER / ОТКАЗ ОТ ГАРАНТИЙ
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND.
+
+ПО предоставляется «как есть», без каких-либо гарантий.
+
+────────────────────────────────────────────────────────────────
+For licensing questions: hello@synapsea.agency
