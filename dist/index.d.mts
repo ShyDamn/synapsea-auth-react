@@ -1,33 +1,19 @@
 import * as react_jsx_runtime from 'react/jsx-runtime';
 import { ReactNode } from 'react';
+import { UserProfile } from '@synapsea/auth-js';
 
+/** Совпадает с полями user в GET /api/v1/auth/session (camelCase, как в auth-js). */
+type SynapseaUser = UserProfile;
+type SynapseaSession = {
+    id: string;
+    expiresAt: string;
+};
 interface SynapseaAuthConfig {
     apiKey: string;
     baseURL?: string;
     callbackURL?: string;
     onSignIn?: (user: SynapseaUser) => void;
     onSignOut?: () => void;
-}
-/** Shapes align with GET /api/v1/auth/session (user may include metadata; provider/username often from linked accounts). */
-interface SynapseaUser {
-    id: string;
-    email: string | null;
-    emailVerified: boolean;
-    name: string | null;
-    avatarUrl: string | null;
-    phone: string | null;
-    username?: string | null;
-    provider?: string;
-    metadata?: Record<string, unknown>;
-    createdAt: string;
-    lastSignIn?: string;
-}
-/** API returns only id + expiresAt on /session; ip/userAgent are not exposed in this response. */
-interface SynapseaSession {
-    id: string;
-    expiresAt: string;
-    ip?: string;
-    userAgent?: string;
 }
 interface AuthState {
     user: SynapseaUser | null;

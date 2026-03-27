@@ -1,6 +1,6 @@
 {
   "name": "@synapsea/auth-react",
-  "version": "1.0.4",
+  "version": "1.0.3",
   "description": "React SDK for Synapsea Auth — Auth-as-a-Service platform",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -22,6 +22,9 @@
     "google",
     "russian"
   ],
+  "dependencies": {
+    "@synapsea/auth-js": "^1.0.0"
+  },
   "peerDependencies": {
     "react": ">=17.0.0"
   },
