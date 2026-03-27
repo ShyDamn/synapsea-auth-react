@@ -1,5 +1,8 @@
 # @synapsea/auth-react
 
+**Proprietary software — use only with the Synapsea Auth platform. See [`LICENSE`](./LICENSE).**  
+Проприетарное ПО — только для использования с платформой Synapsea Auth, условия в [`LICENSE`](./LICENSE).
+
 React SDK для Synapsea Auth — Auth-as-a-Service платформа.
 
 ## Установка
