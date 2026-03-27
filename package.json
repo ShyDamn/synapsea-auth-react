@@ -1,6 +1,6 @@
 {
   "name": "@synapsea/auth-react",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "React SDK for Synapsea Auth — Auth-as-a-Service platform",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
